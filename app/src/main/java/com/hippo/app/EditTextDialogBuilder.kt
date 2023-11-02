@@ -36,6 +36,8 @@ class EditTextDialogBuilder constructor(
 ), OnEditorActionListener {
     private val mTextInputLayout: TextInputLayout
     val editText: EditText
+     private val mTextInputLayout1: TextInputLayout
+    val editText1: EditText
     private var mDialog: AlertDialog? = null
     val text: String
         get() = editText.text.toString()
